@@ -1,5 +1,5 @@
 export const projectLinks = [
-  { name: "Twitter Link", id: "twitter", link: "https://twitter.com/FortuneOnyeka" },
+  { name: "Twitter Link", id: "twitter", url: "https://twitter.com/FortuneOnyeka" },
   { name: "Zuri Team", id: "btn__zuri", url: "https://training.zuri.team/" },
   { name: "Zuri Books", id: "books", url: "http://books.zuri.team" },
   {
