@@ -30,8 +30,24 @@
   color: indigo;
 }
 
-#slack {
+#twitter {
   width: 1152px;
+  height: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #101828;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+#slack {
+ display: none;
+ width: 1152px;
   height: 30px;
   font-family: "Inter";
   font-style: normal;
@@ -71,12 +87,10 @@
   border: 1px solid #eaecf0;
   border-radius: 8px;
 
-
-
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 28px;
-color: #101828;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
 }

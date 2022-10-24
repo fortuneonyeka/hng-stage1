@@ -1,14 +1,8 @@
 import React from 'react'
 import {projectLinks} from "../../../assets/links/links"
-import {BrowserRouter as Router, Route, Link, Routes} from "react-router-dom"
+// import {BrowserRouter as Router, Route, Link,NavLink, Routes} from "react-router-dom"
 
 const Links = () => {
-
-  // const clickButton = () => {
-  //   if (condition) {
-      
-  //   }
-  // }
   return (
     <div>{projectLinks.map((link) => {
       return(
