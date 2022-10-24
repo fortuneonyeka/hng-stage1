@@ -1,6 +1,6 @@
 import React from "react";
-import profileImage from "./assets/images/profile.jpeg";
-import avatar from "./assets/images/_Avatar share buttonforward.png";
+import profileImage from "../../assets/images/profile.jpeg";
+import avatar from "../../assets/images/_Avatar share buttonforward.png";
 
 const Profile = () => {
   return (
