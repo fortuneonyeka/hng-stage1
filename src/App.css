@@ -46,8 +46,8 @@
 }
 
 #slack {
- display: none;
- width: 1152px;
+  display: none;
+  width: 1152px;
   height: 30px;
   font-family: "Inter";
   font-style: normal;
@@ -78,7 +78,7 @@
   align-items: center;
   padding: 24px;
   margin: auto;
- text-decoration: none;
+  text-decoration: none;
   width: 1152px;
   height: 76px;
 
@@ -93,4 +93,11 @@
   font-size: 18px;
   line-height: 28px;
   color: #101828;
+}
+
+.social__icons {
+  display: flex;
+  justify-content: center;
+  padding: 64px 112px;
+  gap: 24px;
 }

@@ -1,6 +1,6 @@
 import './App.css';
 import Profile from "./components/profile/Profile";
-import Links from "./components/profile/links/Links";
+import Links from "./components/links/Links";
 
 
 function App() {

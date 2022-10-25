@@ -10,10 +10,9 @@ const Profile = () => {
 
       <img className="icon" src={avatar} alt="forward avatar" />
       <div>
-        {handles.map((handle) => {
-          console.log(handle.twitter);
+        {handles.map((handle, index) => {
           return (
-          <div>
+          <div key={index}>
             <h4 id="twitter">{handle.twitter}</h4>
             <h4 id="slack">{handle.slack}</h4>
           </div>
