@@ -1,5 +1,5 @@
 .App {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .profile-container {
@@ -109,7 +109,60 @@
 .footer {
   display: flex;
   justify-content: space-around;
-height: 25px;
-margin-top: 50px;
-margin-bottom: 50px;
+  height: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 425px) {
+  .profile-container {
+    margin-left: 35%;
+    width: 40px;
+    
+    
+  
+  }
+
+ 
+
+  .buttons {
+    max-width: 750px;
+    padding: 70px;
+    margin: 40px;
+    margin-left: 40px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 16px;
+    overflow-y: hidden;
+   
+  }
+
+  .icon {display: none;}
+
+  .footer {
+    display: none;
+  }
+
+  .social__icons {
+    display: none;
+  }
+
+  #twitter {
+    font-weight: 700px;
+    font-size: 40px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    margin-left: 20%;
+   
+  }
+
+  #profile__img {
+    width: 200px;
+    height: 200px;
+    margin-top: 24px;
+    
+    margin-left: 1200%;
+  }
 }
