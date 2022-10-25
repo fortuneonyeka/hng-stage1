@@ -1,5 +1,5 @@
-import React from 'react'
-import { socials } from "../../assets/links/links"
+import React from "react";
+import { socials } from "../../assets/links/links";
 
 const Socials = () => {
   return (
@@ -7,15 +7,14 @@ const Socials = () => {
       {socials.map((icon, index) => {
         return (
           <div key={index}>
-          <p>
-            <img src={icon.name} alt="Icons"/>
+            <p >
+              <img  src={icon} alt="Icons" />
             </p>
-        </div>
-        )
-        
+          </div>
+        );
       })}
     </div>
-  )
-}
+  );
+};
 
-export default Socials
+export default Socials;
