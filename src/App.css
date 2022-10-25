@@ -1,3 +1,7 @@
+.App {
+  background-color: #FFFFFF;
+}
+
 .profile-container {
   display: flex;
   flex-direction: column;
@@ -20,8 +24,8 @@
 .icon {
   position: absolute;
   left: 60.5%;
-  width: 16px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   top: 2.99px;
 }
 
@@ -98,6 +102,14 @@
 .social__icons {
   display: flex;
   justify-content: center;
-  padding: 64px 112px;
+  padding: 24px 0px;
   gap: 24px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+height: 25px;
+margin-top: 50px;
+margin-bottom: 50px;
 }

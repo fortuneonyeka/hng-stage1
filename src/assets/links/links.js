@@ -1,5 +1,8 @@
 import Github from "../images/Icongithub.png"
 import Slack from "../images/slackslack.png"
+import Logo from "../images/logo.36d2d48azurilogo.png"
+import I4G from "../images/I4G.png"
+import FooterText from "../images/Footer text.png"
 
 export const projectLinks = [
   { name: "Twitter Link", id: "twitter", url: "https://twitter.com/FortuneOnyeka" },
@@ -24,12 +27,11 @@ export const projectLinks = [
 
 export const handles = [
   {
-    twitter: "FortuneOnyeka",
+    twitter: "Fortune Onyeka",
     slack: "Ihedoro Fortunatus"
   }
 ]
 
-export const socials = [
-  {name:Github},
-  {name:Slack}
-]
+export const socials = [Github, Slack]
+
+export const footer = [Logo, FooterText, I4G]
