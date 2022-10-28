@@ -17,7 +17,7 @@ const Profile = () => {
         {handles.map((handle, index) => {
           return (
           <div key={index}>
-            <h4 id="twitter">{handle.twitter}</h4>
+            <span id="twitter" className="twitter">{handle.twitter}</span>
             <h4 id="slack">{handle.slack}</h4>
           </div>
           )

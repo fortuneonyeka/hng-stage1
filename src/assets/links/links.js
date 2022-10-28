@@ -27,7 +27,7 @@ export const projectLinks = [
 
 export const handles = [
   {
-    twitter: "Fortune Onyeka",
+    twitter: "FortuneOnyeka",
     slack: "Ihedoro Fortunatus"
   }
 ]

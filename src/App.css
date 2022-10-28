@@ -6,8 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
-  isolation: isolate;
+  padding: 20px;
 }
 
 .avatatdot {
@@ -39,18 +38,13 @@
 }
 
 #twitter {
-  width: 1152px;
+  /* width: 200px; */
   height: 30px;
   font-family: "Inter";
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 30px;
   text-align: center;
   color: #101828;
-  flex: none;
-  order: 0;
-  flex-grow: 1;
 }
 
 #slack {
@@ -79,7 +73,6 @@
 
 .buttons {
   cursor: pointer;
-  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -89,12 +82,9 @@
   text-decoration: none;
   width: 1152px;
   height: 76px;
-
   background: #eaecf0;
-
   border: 1px solid #eaecf0;
   border-radius: 8px;
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -122,10 +112,9 @@
   .App {
     width: 10px;
   }
-  /* .profile-container {
-    margin-left: 35%;
-    width: 40px;
-  } */
+ 
+
+  
 
   .avatatdot {
     display: block;
@@ -163,12 +152,10 @@
   }
 
   #twitter {
-    font-weight: 700px;
-    font-size: 40px;
+    margin-left: 170%;
+    font-weight: 400px;
+    font-size: 20px;
     margin-top: 24px;
-    margin-bottom: 32px;
-    margin-left: 20%;
-   
   }
 
   #profile__img {
