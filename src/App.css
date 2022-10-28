@@ -10,6 +10,10 @@
   isolation: isolate;
 }
 
+.avatatdot {
+  display: none;
+}
+
 #profile__img {
   width: 88px;
   height: 88px;
@@ -114,28 +118,37 @@
   margin-bottom: 50px;
 }
 
-@media screen and (max-width: 425px) {
-  .profile-container {
+@media screen and (max-width: 768px) {
+  .App {
+    width: 10px;
+  }
+  /* .profile-container {
     margin-left: 35%;
     width: 40px;
-    
-    
-  
+  } */
+
+  .avatatdot {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 50px;
   }
 
+  .dotshare__container {
+    display: flex;
+    gap: 100px;
+  }
  
 
   .buttons {
-    max-width: 750px;
+    max-width: 500px;
     padding: 70px;
-    margin: 40px;
-    margin-left: 40px;
+    margin-top: 40px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
-    line-height: 16px;
-    overflow-y: hidden;
+    font-size: 30px;
+    overflow: hidden;
    
   }
 
@@ -160,9 +173,9 @@
 
   #profile__img {
     width: 200px;
-    height: 200px;
+    height: 150px;
     margin-top: 24px;
     
-    margin-left: 1200%;
+    margin-left: 90%;
   }
 }
