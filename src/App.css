@@ -38,7 +38,7 @@
 }
 
 #twitter {
-  /* width: 200px; */
+ 
   height: 30px;
   font-family: "Inter";
   font-weight: 700;
@@ -109,9 +109,23 @@
 }
 
 @media screen and (max-width: 768px) {
-  .App {
-    width: 10px;
-  }
+
+.App {
+  max-width: 100%;
+}
+
+.profile-container {
+  max-width: 100%;
+  margin-left:180px
+}
+
+.footer {
+  max-width: 100%;
+}
+
+.buttons__container {
+  max-width: 100%;
+}
  
 
   
@@ -120,17 +134,17 @@
     display: block;
     width: 50px;
     height: 50px;
-    margin: 50px;
+    margin: auto
   }
 
   .dotshare__container {
     display: flex;
-    gap: 100px;
+    gap: 120px;
   }
  
 
   .buttons {
-    max-width: 500px;
+    max-width: 100%;
     padding: 70px;
     margin-top: 40px;
     font-family: "Inter";
@@ -152,7 +166,7 @@
   }
 
   #twitter {
-    margin-left: 170%;
+    margin-right: 180px;
     font-weight: 400px;
     font-size: 20px;
     margin-top: 24px;
@@ -163,6 +177,6 @@
     height: 150px;
     margin-top: 24px;
     
-    margin-left: 90%;
+    margin-left: auto;
   }
 }
