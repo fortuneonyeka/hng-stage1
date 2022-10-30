@@ -3,6 +3,7 @@ import profileImage from "../../assets/images/profile.jpeg";
 import avatar from "../../assets/images/_Avatar share buttonforward.png";
 import dotButton from "../../assets/images/_Avatar share button.png"
 import { handles } from "../../assets/links/links";
+import "./profile.css"
 
 const Profile = () => {
   return (

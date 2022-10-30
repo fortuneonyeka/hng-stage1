@@ -1,5 +1,6 @@
 import React from "react";
 import { socials } from "../../assets/links/links";
+import "./socials.css"
 
 const Socials = () => {
   return (
