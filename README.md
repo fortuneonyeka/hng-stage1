@@ -1,4 +1,4 @@
-# React-Redux Blog App with Redux Toolkit
+# Zuri landing page
 "This is a sample Zuri landing page application"
 
 
