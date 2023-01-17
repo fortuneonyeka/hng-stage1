@@ -4,7 +4,7 @@
 
 
 
-![Screenshot](src/Assets/images/hng.png)
+![Screenshot](src/Assets/images//hng.png)
 
 
 
